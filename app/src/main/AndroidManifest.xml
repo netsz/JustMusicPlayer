@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.justudio.justmusicplayer">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".JustMusicApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_hdpi"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".PlayActivity"   />
+        <activity android:name=".MyLoveMusicActivity"
+            android:theme="@style/LoveMusicTheme"
+            android:label="@string/love_title"
+            />
+        <activity android:name=".NearPlayActivity"
+            android:theme="@style/NearPlayTheme"
+            android:label="@string/near_play_title"
+            />
+
+        <service
+            android:name=".service.PlayService"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+</manifest>

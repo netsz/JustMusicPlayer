@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Just 音乐播放器</string>
+    <string name="ilike">我的收藏</string>
+    <string name="love_title">我的收藏</string>
+    <string name="near_play_title">最近播放</string>
+    <string name="no_near_data">还没听过歌么？赶快去听几首吧！</string>
+    <string name="nearplay">最近播放</string>
+    <string name="random_play">随机播放</string>
+    <string name="order_play">顺序播放</string>
+    <string name="single_play">单曲循环</string>
+    <string name="download">下载</string>
+    <string name="cancel">取消</string>
+    <string name="go_out">退出</string>
+
+</resources>

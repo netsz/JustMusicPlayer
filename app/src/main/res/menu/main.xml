@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/iLike"
+        android:title="@string/ilike"/>
+
+    <item
+        android:id="@+id/near_play"
+        android:title="@string/nearplay"/>
+
+    <item
+        android:id="@+id/go_out"
+        android:title="@string/go_out"/>
+
+</menu>

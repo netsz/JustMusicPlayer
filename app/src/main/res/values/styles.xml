@@ -1,0 +1,36 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@color/background_window</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+    </style>
+
+    <style name="ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:icon">@drawable/ic_launcher_actionbar</item>
+        <item name="android:background">#FFA9DE0A</item>
+    </style>
+
+
+    <style name="LoveMusicTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@color/background_window</item>
+        <item name="android:actionBarStyle">@style/LoveMusicBarStyle</item>
+    </style>
+
+    <style name="LoveMusicBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:icon">@mipmap/icon_lovemusic</item>
+        <item name="android:background">#FFA9DE0A</item>
+    </style>
+
+    <style name="NearPlayTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@color/background_window</item>
+        <item name="android:actionBarStyle">@style/NearPlayBarStyle</item>
+    </style>
+
+    <style name="NearPlayBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:icon">@mipmap/icon_near_play</item>
+        <item name="android:background">#FFA9DE0A</item>
+    </style>
+
+</resources>
